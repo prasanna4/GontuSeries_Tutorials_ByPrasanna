@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-4.0.xsd" >
+ 
+    <bean id="restaurantBean" class="org.gontoseries.springcore.GontuSeries_4_Dependency_Injection_using_setter_method_way.Restaurant">
+      <property name="hotDrink" ref="teaBean"></property>
+    </bean>
+    
+    
+    <bean id="teaBean" class="org.gontoseries.springcore.GontuSeries_4_Dependency_Injection_using_setter_method_way.Tea">
+   
+    </bean>
+</beans>
